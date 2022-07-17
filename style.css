@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+}
+
+input,
+span{
+    max-height: 30px;
+    width: 200px;
+}
+
+.head{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.spn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 30px;
+    height: 30px;
+    border-style: double;
+}
+
+
+h1{
+    width: 200px;
+}
+
+
+#em,
+#firstName,
+#lastName,
+#usr,
+#pass,
+#passR,
+button{
+    border-style: double;
+    border-radius: 10px;
+}
+
+#em,
+#firstName,
+#lastName,
+#usr,
+#pass,
+#passR{
+    border-color: #2ebacc;
+}
+
+button:hover{
+    color: #2ebacc ;
+    border-color: #2ebacc;
+}
+
+button{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#show{
+    color: white;
+}
+
+.showMsg{
+    background-color: #2ebacc;
+    color: black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.icon{
+    position: absolute;
+    justify-content: center;
+    transform: translate(0, -50%);
+    top: 69%;
+    left: 84.5%;
+    width: 22px;
+    height: 20px;
+}
